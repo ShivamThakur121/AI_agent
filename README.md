@@ -1,2 +1,21 @@
 # AI_Agent Project
-The challenge was to design a system that allows users to upload datasets, define custom queries, and retrieve specific information for entities like companies or individuals. My solution uses an AI agent that performs web searches for each entity, processes the results using a language model, and structures the output into an easily downloadable format. It’s efficient, scalable, and user-friendly.
+
+## Overview
+This project creates an AI agent capable of:
+1. Reading a dataset from a CSV or Google Sheet.
+2. Performing a web search based on a user-defined query template.
+3. Using an LLM (like OpenAI) to extract specific information from search results.
+4. Presenting the results in a dashboard and enabling CSV downloads.
+
+## Setup Instructions
+1. Clone the repository.
+2. Install dependencies:
+   ```bash
+## pip install -r requirements.txt
+streamlit
+pandas
+openai
+requests
+google-api-python-client
+python-dotenv
+
